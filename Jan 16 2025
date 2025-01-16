@@ -1,0 +1,194 @@
+import turtle
+screen = turtle.Screen()
+screen.bgcolor("black") 
+donatello = turtle.Turtle() #donatello is mo's favorite TMNT
+
+def square(x, y):
+    donatello.pensize(5)
+    donatello.pencolor("lavender")
+    donatello.penup()
+    donatello.goto(x, y)
+    donatello.pendown()
+    for i in range(4): 
+        donatello.forward(5) 
+        donatello.right(5)
+
+def circle(cx, cy, radius):
+    donatello.pensize(8)
+    donatello.speed(20)
+    donatello.pencolor("lime green")
+    donatello.fillcolor("salmon")
+    donatello.penup()
+    donatello.goto(cx, cy)
+    donatello.pendown()
+    donatello.begin_fill()
+    donatello.circle(radius)
+    donatello.end_fill()
+    
+    
+    
+def triangle(x, y):
+    donatello.pensize(5)
+    donatello.pencolor("red")
+    donatello.penup()
+    donatello.goto(x, y)
+    donatello.pendown()
+    for i in range(4): 
+        donatello.forward(100) 
+        donatello.right(-160)
+        donatello.left(-280)
+        
+        
+        
+        
+        
+def triangle(x, y):
+    donatello.pensize(5)
+    donatello.pencolor("red")
+    donatello.penup()
+    donatello.goto(x, y)
+    donatello.pendown()
+    for i in range(4): 
+        donatello.forward(100) 
+        donatello.right(-160)
+        donatello.left(-280)
+        
+        
+        
+        
+def star(x, y):
+    donatello.pensize(5)
+    donatello.pencolor("coral")
+    donatello.penup()
+    donatello.goto(x, y)
+    donatello.pendown()
+    for i in range(5):
+        donatello.forward(75)
+        donatello.right(144)
+       
+def hexagon(x, y):
+    donatello.pensize(5)
+    donatello.pencolor("violet")
+    donatello.penup()
+    donatello.goto(x, y)
+    donatello.pendown()
+    for i in range(6):
+        trtl.forward(50)
+        trtl.right(60)
+    
+#call functions
+
+circle(-100, -500, 500)
+
+circle(-100, -500, 490)
+
+circle(-100, -500, 480)
+
+circle(-100, -500, 470)
+
+circle(-100, -500, 460)
+
+circle(-100, -500, 450)
+
+circle(-100, -500, 440)
+
+circle(-100, -500, 430)
+
+circle(-100, -500, 420)
+
+circle(-100, -500, 410)
+
+circle(-100, -500, 400)
+
+circle(-100, -500, 390)
+
+circle(-100, -500, 380)
+
+circle(-100, -500, 370)
+
+circle(-100, -500, 360)
+
+circle(-100, -500, 350)
+
+circle(-100, -500, 340)
+
+circle(-100, -500, 330)
+
+circle(-100, -500, 320)
+
+circle(-100, -500, 310)
+
+circle(-100, -500, 300)
+
+circle(-100, -500, 290)
+
+circle(-100, -500, 280)
+
+circle(-100, -500, 270)
+
+circle(-100, -500, 260)
+
+circle(-100, -500, 250)
+
+circle(-100, -500, 240)
+
+circle(-100, -500, 230)
+
+circle(-100, -500, 220)
+
+circle(-100, -500, 210)
+
+circle(-100, -500, 200)
+
+circle(-100, -500, 190)
+
+circle(-100, -500, 180)
+
+circle(-100, -500, 170)
+
+circle(-100, -500, 160)
+
+circle(-100, -500, 150)
+
+circle(-100, -500, 140)
+
+circle(-100, -500, 130)
+
+circle(-100, -500, 120)
+
+circle(-100, -500, 110)
+
+circle(-100, -500, 100)
+
+circle(-100, -500, 90)
+
+circle(-100, -500, 80)
+
+circle(-100, -500, 70)
+
+circle(-100, -500, 60)
+
+circle(-100, -500, 50)
+
+circle(-100, -500, 40)
+
+circle(-100, -500, 30)
+
+circle(-100, -500, 20)
+
+circle(-100, -500, 10)
+
+circle(-100, -500, 0)
+
+triangle(30, 40)
+
+hexagon(40, 50)
+
+star(60, 70)
+
+
+
+
+
+turtle.done()
+
